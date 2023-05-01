@@ -1,0 +1,107 @@
+import React from "react";
+import img2 from "./img2.jpg";
+import "./Abtus.css";
+
+export default function AboutUs() {
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-t0yfDvS9XGJ0CzOibG1+cZ6qYJz0fT6Tg8sI7y+Ed/S68J2OaPh1RdQTJ/jVZkHJjQ7DZ+JFyfb7oyxqKjAgA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />;
+  return (
+    <div>
+      <main className="container">
+        <section className="hero">
+          <h1 className="mb-5 mt-5">ABOUT US</h1>
+          <img src={img2} alt="About Us" className="hero-image" />
+        </section>
+        <section className="content">
+          <div className="grid-container">
+            <div className="grid-item">
+              <div className="section-box">
+                <h2>Our Mission</h2>
+                <p>
+                  At Handmade Arts and Crafts, we are committed to promoting the
+                  Make in India initiative by showcasing the talents and skills
+                  of local traders and artisans. We believe that every piece of
+                  handmade art is unique and has a story to tell, and we strive
+                  to create a platform that allows these artists to share their
+                  stories with the world.
+                </p>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="section-box">
+                <h2>Our Team</h2>
+                <div className="team">
+                  <div className="member">
+                    {/* <img src="team-member-1.jpg" alt="Team Member 1" /> */}
+                    <h3>
+                      <strong>Mayur</strong>
+                    </h3>
+                    <p></p>
+                  </div>
+                  <div className="member">
+                    {/* <img src="team-member-2.jpg" alt="Team Member 2" /> */}
+                    <h3>
+                      <strong>Shrutika</strong>
+                    </h3>
+                    <p></p>
+                  </div>
+                  <div className="member">
+                    {/* <img src="team-member-3.jpg" alt="Team Member 3" /> */}
+                    <h3>
+                      <strong>Mahesh</strong>
+                    </h3>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="section-box">
+                <h2>Our Story</h2>
+                <p>
+                  Handmade Arts and Crafts was founded in 2021 by John Doe, a
+                  passionate entrepreneur who wanted to promote the Make in
+                  India initiative and support local traders and artisans. John
+                  saw that there was a need for a platform that would showcase
+                  the unique and beautiful handmade arts and crafts that were
+                  being created in India, and he set out to create that
+                  platform.
+                </p>
+                <p>
+                  Today, Handmade Arts and Crafts is a thriving community of
+                  artists, traders, and customers who are all passionate about
+                  handmade art. We believe that by supporting local traders and
+                  artisans, we can create a better future for everyone.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      {/* <footer className="footer">
+  <div className="footer-content">
+    <p>Contact Us:</p>
+    <ul>
+      <li><i className="fas fa-phone"></i> 123-456-7890</li>
+      <li><i className="fas fa-envelope"></i> info@handmadeartsandcrafts.com</li>
+      <li><i className="fas fa-map-marker-alt"></i> 123 Main St, Anytown, USA</li>
+    </ul>
+  </div>
+  <div className="footer-content">
+    <p>Follow Us:</p>
+    <ul>
+      <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+      <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+    </ul>
+  </div>
+</footer> */}
+
+    </div>
+  );
+}
